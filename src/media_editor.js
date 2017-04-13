@@ -8,7 +8,7 @@ import { AtomicBlockUtils,
 import React, { Component } from 'react';
 
 
-class MediaEditorExample extends React.Component {
+class MediaEditor extends React.Component {
 
 
   constructor(props) {
@@ -247,4 +247,4 @@ const styles = {
         },
       };
 
-export default MediaEditorExample;
+export default MediaEditor;

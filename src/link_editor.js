@@ -10,7 +10,7 @@ import React, { Component } from 'react';
 
 
 
-class LinkEditorExample extends React.Component {
+class LinkEditor extends React.Component {
         constructor(props) {
           super(props);
 
@@ -219,4 +219,4 @@ class LinkEditorExample extends React.Component {
       };
 
 
-export default LinkEditorExample;
+export default LinkEditor;

@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
-import MediaEditorExample from './editor2'
-import LinkEditorExample from './link_editor'
+import MediaEditor from './media_editor'
+import LinkEditor from './link_editor'
 
 ReactDOM.render(
   <div>
-  <LinkEditorExample />
+  <LinkEditor />
   <App />
-  <MediaEditorExample/>
+  <MediaEditor/>
   </div>,
   document.getElementById('root')
 );
